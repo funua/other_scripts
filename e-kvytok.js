@@ -1,6 +1,6 @@
 (function again(l){
 		console.log(l);
-		var minTrains = 0,
+		var minTrains = 1,
 			m = Math.floor(Math.random() * (3 - 1 + 1)) + 1,
 			date = new Date(),
         	time = date.getHours()+':'+date.getMinutes()+':'+date.getSeconds(),
