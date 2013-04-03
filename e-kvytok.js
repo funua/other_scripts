@@ -29,5 +29,5 @@
 					} else again(l);
 				} else again(l);
 			}, 'json')
-		}, m*60*5000)
+		}, m*60*1000)
 })('Script Run')
