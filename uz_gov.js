@@ -40,7 +40,7 @@
                         $.each(this.types, function(){
                             msg += ' '+this.title+'- '+this.places+', ';
                             if (this.letter == 'П') {
-                                alert('Появились билеты на плацкарт. Потоврите поиск!');   
+                                alert('Появились билеты на плацкарт. Повторите поиск!');   
                                 found = true;
                             }
                         })
