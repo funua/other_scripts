@@ -46,14 +46,15 @@
                             })
                             console.log(msg);
                         })
-                        if (!found) again();
+                        //if (!found) again();
+                        again();
                     } catch(e){
                         console.log(e);
                         alert('Что-то не так) свяжитесь с разработчиком)');
                     }
                 }
             });
-        }, 60*1000)
+        }, 60*2000)
     }
     setTimeout(again, 1000);
 })()
