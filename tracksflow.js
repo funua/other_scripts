@@ -9,7 +9,7 @@ function func(){
 	$(item).click();
 	setTimeout(function(){
 		var a = document.createElement('a');
-		var name = $('.track .artist').html()+' - '+$('.track .title').html();
+		var name = $('.track').html()+' - '+$('.artist').html();
 		a.href = $('#audioplayer').attr('src');
 		a.download = name;
 		a.click();
